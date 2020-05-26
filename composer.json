@@ -1,0 +1,20 @@
+{
+    "name": "hannanxp/lumen-maintenance-mode",
+    "description": "Maintenance mode command for Lumen",
+    "type": "library",
+    "require": {
+        "laravel/lumen-framework": "^7.0",
+        "php": "^7.2.5",
+    },
+    "authors": [
+        {
+            "name": "Hannan Gigih Prastawa",
+            "email": "hannanxp@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Hannanxp\\Lumen\\MaintenanceMode\\": "src/"
+        }
+    }
+}
